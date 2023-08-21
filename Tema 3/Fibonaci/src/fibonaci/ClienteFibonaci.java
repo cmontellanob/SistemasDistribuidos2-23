@@ -18,22 +18,31 @@ import java.util.logging.Logger;
  * @author Carlos
  */
 public class ClienteFibonaci {
+
     public static void main(String[] args) {
         {
             int port = 5002;
             var sc = new Scanner(System.in);
-            
+            boolean salir = false;
             try {
                 Socket client = new Socket("localhost", port);
                 PrintStream toServer = new PrintStream(client.getOutputStream());
                 BufferedReader fromServer = new BufferedReader(
                         new InputStreamReader(client.getInputStream()));
+                while (!salir) {
+                    System.out.println("Introduzca un numero");
+                    String numero = sc.next();
+                    toServer.println(numero);
+                    if (numero.equals("Salir")) {
+                        salir = true;
+                        System.out.println("Se termino " );
+                        client.close();
+                    } else {
+                        String result = fromServer.readLine();
+                        System.out.println("El fibonaci es: " + result);
+                    }
+                }
                 
-                System.out.println("Introduzca un numero");
-                String numero= sc.next();
-                toServer.println(numero);
-                String result = fromServer.readLine();
-                System.out.println("El fibonaci es: " + result);
 
             } catch (IOException ex) {
                 Logger.getLogger(ClienteFibonaci.class.getName()).log(Level.SEVERE, null, ex);

@@ -1,8 +1,8 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package fibonaci;
+package juegoartirmetico;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,20 +10,24 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
+
 
 /**
  *
  * @author Carlos
  */
-public class ServidorFibonaci {
+public class ServerJuego {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
+        // TODO code application logic here
         int port = 5002;
         ServerSocket server;
-        String cadena="";
         try {
+            Juego juego=new Juego();
             server = new ServerSocket(port);
             System.out.println("Se inicio el servidor con éxito");
             Socket client;
@@ -31,19 +35,17 @@ public class ServidorFibonaci {
             client = server.accept(); //conexion
             BufferedReader fromClient = new BufferedReader(new InputStreamReader(client.getInputStream())); // el lector
             System.out.println("Cliente se conecto");
-            while (!cadena.equals("Salir"))
-            {
-             cadena=fromClient.readLine();
-             
-             int n = Integer.parseInt(cadena);
-             int f= Operacion.fibonaci(n);
-             toClient = new PrintStream(client.getOutputStream());
-             toClient.println(f);
-            }
             
+            
+            String cadena=fromClient.readLine();
+            if(cadena=="Iniciar")
+            {
+                juego.iniciar();
+            }
+            toClient = new PrintStream(client.getOutputStream());
+            toClient.println("Hola Mundo");
         } catch (IOException ex) {
-            Logger.getLogger(ServidorFibonaci.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println(ex.getMessage());
         }
-
     }
 }
