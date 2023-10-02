@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="sumar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="sumarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sumarResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="restar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="restarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="restarResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="multiplicar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="multiplicarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="multiplicarResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dividir">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dividirResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="dividirResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="sumarSoapIn">
+    <wsdl:part name="parameters" element="tns:sumar" />
+  </wsdl:message>
+  <wsdl:message name="sumarSoapOut">
+    <wsdl:part name="parameters" element="tns:sumarResponse" />
+  </wsdl:message>
+  <wsdl:message name="restarSoapIn">
+    <wsdl:part name="parameters" element="tns:restar" />
+  </wsdl:message>
+  <wsdl:message name="restarSoapOut">
+    <wsdl:part name="parameters" element="tns:restarResponse" />
+  </wsdl:message>
+  <wsdl:message name="multiplicarSoapIn">
+    <wsdl:part name="parameters" element="tns:multiplicar" />
+  </wsdl:message>
+  <wsdl:message name="multiplicarSoapOut">
+    <wsdl:part name="parameters" element="tns:multiplicarResponse" />
+  </wsdl:message>
+  <wsdl:message name="dividirSoapIn">
+    <wsdl:part name="parameters" element="tns:dividir" />
+  </wsdl:message>
+  <wsdl:message name="dividirSoapOut">
+    <wsdl:part name="parameters" element="tns:dividirResponse" />
+  </wsdl:message>
+  <wsdl:portType name="OperacionesSoap">
+    <wsdl:operation name="sumar">
+      <wsdl:input message="tns:sumarSoapIn" />
+      <wsdl:output message="tns:sumarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <wsdl:input message="tns:restarSoapIn" />
+      <wsdl:output message="tns:restarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="multiplicar">
+      <wsdl:input message="tns:multiplicarSoapIn" />
+      <wsdl:output message="tns:multiplicarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dividir">
+      <wsdl:input message="tns:dividirSoapIn" />
+      <wsdl:output message="tns:dividirSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OperacionesSoap" type="tns:OperacionesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="sumar">
+      <soap:operation soapAction="http://tempuri.org/sumar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <soap:operation soapAction="http://tempuri.org/restar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiplicar">
+      <soap:operation soapAction="http://tempuri.org/multiplicar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dividir">
+      <soap:operation soapAction="http://tempuri.org/dividir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OperacionesSoap12" type="tns:OperacionesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="sumar">
+      <soap12:operation soapAction="http://tempuri.org/sumar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="restar">
+      <soap12:operation soapAction="http://tempuri.org/restar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="multiplicar">
+      <soap12:operation soapAction="http://tempuri.org/multiplicar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dividir">
+      <soap12:operation soapAction="http://tempuri.org/dividir" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Operaciones">
+    <wsdl:port name="OperacionesSoap" binding="tns:OperacionesSoap">
+      <soap:address location="http://localhost:49703/Operaciones.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OperacionesSoap12" binding="tns:OperacionesSoap12">
+      <soap12:address location="http://localhost:49703/Operaciones.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

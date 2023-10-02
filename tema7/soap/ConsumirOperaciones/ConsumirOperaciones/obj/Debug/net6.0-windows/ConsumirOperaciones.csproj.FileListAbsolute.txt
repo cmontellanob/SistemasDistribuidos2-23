@@ -1,0 +1,17 @@
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\bin\Debug\net6.0-windows\ConsumirOperaciones.exe
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\bin\Debug\net6.0-windows\ConsumirOperaciones.deps.json
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\bin\Debug\net6.0-windows\ConsumirOperaciones.runtimeconfig.json
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\bin\Debug\net6.0-windows\ConsumirOperaciones.dll
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\bin\Debug\net6.0-windows\ConsumirOperaciones.pdb
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.csproj.AssemblyReference.cache
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.Form1.resources
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.csproj.GenerateResource.cache
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.GeneratedMSBuildEditorConfig.editorconfig
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.AssemblyInfoInputs.cache
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.AssemblyInfo.cs
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.csproj.CoreCompileInputs.cache
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.dll
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\refint\ConsumirOperaciones.dll
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.pdb
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ConsumirOperaciones.genruntimeconfig.cache
+D:\usfx\2-2023\SistemasDistribuidos2-23\tema7\soap\ConsumirOperaciones\ConsumirOperaciones\obj\Debug\net6.0-windows\ref\ConsumirOperaciones.dll
