@@ -1,4 +1,4 @@
-using ServicioOperaciones;
+using Operaciones;
 
 namespace ConsumirOperaciones
 {
@@ -8,33 +8,32 @@ namespace ConsumirOperaciones
         {
             InitializeComponent();
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        
+        private void button1_Click(object sender, EventArgs e)
         {
             int a = int.Parse(txtA.Text);
             int b = int.Parse(txtB.Text);
-            int c=0;
-            OperacionesSoapClient op = new();
-            
-            switch (cbOperacion.SelectedIndex)
+            int op=cbOperaciones.SelectedIndex;
+            int c = 0;
+            OperacionesSoapClient cliente = new OperacionesSoapClient(new OperacionesSoapClient.EndpointConfiguration());
+            switch (op)
             {
                 case 0:
-
-                    _ = op.sumarAsync(a,b);
+                    c = cliente.sumar(a, b);
                     break;
-                case 1:
-                    c = op.restarAsync(a, b);
+                    case 1:
+                    c = cliente.restar(a, b);
                     break;
                 case 2:
-                    c = op.Multiplicar(a, b);
+                    c = cliente.multiplicar(a, b);
+                    break;
+                case 3:
+                    c = cliente.dividir(a, b);
                     break;
 
-                case 3:
-                    c = op.Dividir(a, b);
-                    break;
+
             }
             lblResultado.Text = c.ToString();
-           
 
         }
     }

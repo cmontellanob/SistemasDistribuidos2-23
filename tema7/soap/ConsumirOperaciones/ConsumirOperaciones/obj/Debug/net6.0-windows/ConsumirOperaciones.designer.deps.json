@@ -144,7 +144,7 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {},
-      "System.Private.ServiceModel/4.10.2": {
+      "System.Private.ServiceModel/4.10.3": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "Microsoft.Extensions.ObjectPool": "5.0.10",
@@ -155,8 +155,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Private.ServiceModel.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         },
         "resources": {
@@ -349,29 +349,29 @@
           }
         }
       },
-      "System.ServiceModel.Duplex/4.10.2": {
+      "System.ServiceModel.Duplex/4.10.3": {
         "dependencies": {
-          "System.Private.ServiceModel": "4.10.2",
-          "System.ServiceModel.Primitives": "4.10.2"
+          "System.Private.ServiceModel": "4.10.3",
+          "System.ServiceModel.Primitives": "4.10.3"
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Duplex.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         }
       },
-      "System.ServiceModel.Federation/4.10.2": {
+      "System.ServiceModel.Federation/4.10.3": {
         "dependencies": {
           "Microsoft.IdentityModel.Protocols.WsTrust": "6.8.0",
-          "System.ServiceModel.Http": "4.10.2",
-          "System.ServiceModel.Primitives": "4.10.2",
-          "System.ServiceModel.Security": "4.10.2"
+          "System.ServiceModel.Http": "4.10.3",
+          "System.ServiceModel.Primitives": "4.10.3",
+          "System.ServiceModel.Security": "4.10.3"
         },
         "runtime": {
           "lib/netstandard2.0/System.ServiceModel.Federation.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         },
         "resources": {
@@ -416,54 +416,54 @@
           }
         }
       },
-      "System.ServiceModel.Http/4.10.2": {
+      "System.ServiceModel.Http/4.10.3": {
         "dependencies": {
-          "System.Private.ServiceModel": "4.10.2",
-          "System.ServiceModel.Primitives": "4.10.2"
+          "System.Private.ServiceModel": "4.10.3",
+          "System.ServiceModel.Primitives": "4.10.3"
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Http.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         }
       },
-      "System.ServiceModel.NetTcp/4.10.2": {
+      "System.ServiceModel.NetTcp/4.10.3": {
         "dependencies": {
-          "System.Private.ServiceModel": "4.10.2",
-          "System.ServiceModel.Primitives": "4.10.2"
+          "System.Private.ServiceModel": "4.10.3",
+          "System.ServiceModel.Primitives": "4.10.3"
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.NetTcp.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         }
       },
-      "System.ServiceModel.Primitives/4.10.2": {
+      "System.ServiceModel.Primitives/4.10.3": {
         "dependencies": {
-          "System.Private.ServiceModel": "4.10.2"
+          "System.Private.ServiceModel": "4.10.3"
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Primitives.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           },
           "lib/net6.0/System.ServiceModel.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.1000.223.17202"
+            "fileVersion": "4.1000.323.51101"
           }
         }
       },
-      "System.ServiceModel.Security/4.10.2": {
+      "System.ServiceModel.Security/4.10.3": {
         "dependencies": {
-          "System.Private.ServiceModel": "4.10.2",
-          "System.ServiceModel.Primitives": "4.10.2"
+          "System.Private.ServiceModel": "4.10.3",
+          "System.ServiceModel.Primitives": "4.10.3"
         },
         "runtime": {
           "lib/net6.0/System.ServiceModel.Security.dll": {
-            "assemblyVersion": "4.10.2.0",
-            "fileVersion": "4.1000.223.17202"
+            "assemblyVersion": "4.10.3.0",
+            "fileVersion": "4.1000.323.51101"
           }
         }
       },
@@ -699,12 +699,12 @@
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
     },
-    "System.Private.ServiceModel/4.10.2": {
+    "System.Private.ServiceModel/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bi2/w2EDXqxno8zfbt6vHcrpGw0Pav8tEMzmJraHwJvWYJd45wcqr7gNa2IUs91j4z+BNGMooStaWS6pm2Lq0A==",
-      "path": "system.private.servicemodel/4.10.2",
-      "hashPath": "system.private.servicemodel.4.10.2.nupkg.sha512"
+      "sha512": "sha512-BcUV7OERlLqGxDXZuIyIMMmk1PbqBblLRbAoigmzIUx/M8A+8epvyPyXRpbgoucKH7QmfYdQIev04Phx2Co08A==",
+      "path": "system.private.servicemodel/4.10.3",
+      "hashPath": "system.private.servicemodel.4.10.3.nupkg.sha512"
     },
     "System.Reflection/4.3.0": {
       "type": "package",
@@ -797,47 +797,47 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
-    "System.ServiceModel.Duplex/4.10.2": {
+    "System.ServiceModel.Duplex/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FjFGC7DOTNrkItAYQZVyrDTqXezqFIzmdKL1YaN1ZHdbq5oeyo//iyR+OGXLAfbBxyHultFgV1DetarYBSvIxw==",
-      "path": "system.servicemodel.duplex/4.10.2",
-      "hashPath": "system.servicemodel.duplex.4.10.2.nupkg.sha512"
+      "sha512": "sha512-IZ8ZahvTenWML7/jGUXSCm6jHlxpMbcb+Hy+h5p1WP9YVtb+Er7FHRRGizqQMINEdK6HhWpD6rzr5PdxNyusdg==",
+      "path": "system.servicemodel.duplex/4.10.3",
+      "hashPath": "system.servicemodel.duplex.4.10.3.nupkg.sha512"
     },
-    "System.ServiceModel.Federation/4.10.2": {
+    "System.ServiceModel.Federation/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2jDrqYrIspmpIasSZ/Q8LrHJswxwyCko1dsGZUAFR/Z6WJufFjbRpwoWV+gBM0/7b1mb/oSa3DwNjjgK+lsP3Q==",
-      "path": "system.servicemodel.federation/4.10.2",
-      "hashPath": "system.servicemodel.federation.4.10.2.nupkg.sha512"
+      "sha512": "sha512-VFQgE+XFdUXvxShtdQwNJ0AxfYr0ZVS0TlR3yRwCZxtcRPD0rnkSNfTbIiLxjH0j+O+IrtNZh9EDAQCLEiSNMA==",
+      "path": "system.servicemodel.federation/4.10.3",
+      "hashPath": "system.servicemodel.federation.4.10.3.nupkg.sha512"
     },
-    "System.ServiceModel.Http/4.10.2": {
+    "System.ServiceModel.Http/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1AhiJwPc+90GjBd/sDkT93RVuRj688ZQInXzWfd56AEjDzWieUcAUh9ppXhRuEVpT+x48D5GBYJc1VxDP4IT+Q==",
-      "path": "system.servicemodel.http/4.10.2",
-      "hashPath": "system.servicemodel.http.4.10.2.nupkg.sha512"
+      "sha512": "sha512-hodkn0rPTYmoZ9EIPwcleUrOi1gZBPvU0uFvzmJbyxl1lIpVM5GxTrs/pCETStjOXCiXhBDoZQYajquOEfeW/w==",
+      "path": "system.servicemodel.http/4.10.3",
+      "hashPath": "system.servicemodel.http.4.10.3.nupkg.sha512"
     },
-    "System.ServiceModel.NetTcp/4.10.2": {
+    "System.ServiceModel.NetTcp/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jWNKeXfccRqkbjTkVyKD0QBBO+FnYWQrNrJByT+oOab17UBLfvUdt1kLhPe3qZalIlBoqvRFtw6yR/oRs5r3Vw==",
-      "path": "system.servicemodel.nettcp/4.10.2",
-      "hashPath": "system.servicemodel.nettcp.4.10.2.nupkg.sha512"
+      "sha512": "sha512-tP7GN7ehqSIQEz7yOJEtY8ziTpfavf2IQMPKa7r9KGQ75+uEW6/wSlWez7oKQwGYuAHbcGhpJvdG6WoVMKYgkw==",
+      "path": "system.servicemodel.nettcp/4.10.3",
+      "hashPath": "system.servicemodel.nettcp.4.10.3.nupkg.sha512"
     },
-    "System.ServiceModel.Primitives/4.10.2": {
+    "System.ServiceModel.Primitives/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8QOguIqHtWYywBt7SubPhdICE2LClHzqOMDy0LQIui4T3QJOae7g6UR+alCW61nEufYNtO8Uss41EbXqD8hdww==",
-      "path": "system.servicemodel.primitives/4.10.2",
-      "hashPath": "system.servicemodel.primitives.4.10.2.nupkg.sha512"
+      "sha512": "sha512-aNcdry95wIP1J+/HcLQM/f/AA73LnBQDNc2uCoZ+c1//KpVRp8nMZv5ApMwK+eDNVdCK8G0NLInF+xG3mfQL+g==",
+      "path": "system.servicemodel.primitives/4.10.3",
+      "hashPath": "system.servicemodel.primitives.4.10.3.nupkg.sha512"
     },
-    "System.ServiceModel.Security/4.10.2": {
+    "System.ServiceModel.Security/4.10.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BdYdPHRJLqwFAJYbmdl9M5qqjJ6O7TVw9AMcW0h7+oc0ah0ufYuSIrN75BhNNAIcaYcviWzC3PDT5H0QkNX7ug==",
-      "path": "system.servicemodel.security/4.10.2",
-      "hashPath": "system.servicemodel.security.4.10.2.nupkg.sha512"
+      "sha512": "sha512-vqelKb7DvP2inb6LDJ5Igi8wpOYdtLXn5luDW5qEaqkV2sYO1pKlVYBpr6g6m5SevzbdZlVNu67dQiD/H6EdGQ==",
+      "path": "system.servicemodel.security/4.10.3",
+      "hashPath": "system.servicemodel.security.4.10.3.nupkg.sha512"
     },
     "System.Text.Encoding/4.3.0": {
       "type": "package",

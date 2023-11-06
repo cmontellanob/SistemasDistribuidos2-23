@@ -1,0 +1,16 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "http://localhost:65099/ServicioImpuestos.asmx?WSDL"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, Impuestos"
+    ],
+    "targetFramework": "net6.0",
+    "typeReuseMode": "All"
+  }
+}

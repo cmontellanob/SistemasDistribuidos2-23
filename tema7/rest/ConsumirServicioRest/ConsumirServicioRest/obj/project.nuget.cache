@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gRQZuzRBriSYPn5uA5YQZXMCsB3asO9t8GRj+lSQV3UU7bXXlrFsQ4Tjr8jhtJHJZ+9/k0vAkNoSMLZBZKXchA==",
+  "success": true,
+  "projectFilePath": "D:\\usfx\\2-2023\\SistemasDistribuidos2-23\\tema7\\rest\\ConsumirServicioRest\\ConsumirServicioRest\\ConsumirServicioRest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Carlos\\.nuget\\packages\\microsoft.extensions.apidescription.client\\3.0.0\\microsoft.extensions.apidescription.client.3.0.0.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\nswag.apidescription.client\\13.0.5\\nswag.apidescription.client.13.0.5.nupkg.sha512",
+    "C:\\Users\\Carlos\\.nuget\\packages\\nswag.msbuild\\13.0.5\\nswag.msbuild.13.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

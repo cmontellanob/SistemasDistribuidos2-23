@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1Rz7ulME425yMBIbcL/lbwdLu0DC3PrTqIcthotuKyBMfMFPJDPyC4plIbMLtVPN8qeFC3zQQCcFz07eInAQg==",
+  "success": false,
+  "projectFilePath": "D:\\usfx\\2-2023\\SistemasDistribuidos2-23\\tema7\\impuestos\\Facturador\\Facturador\\Facturador.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Duplex"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.NetTcp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Federation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Security"
+    }
+  ]
+}

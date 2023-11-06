@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Microsoft.Extensions.ApiDescription.Client >= 3.0.0",
+      "NSwag.ApiDescription.Client >= 13.0.5",
+      "Newtonsoft.Json >= 13.0.1",
+      "System.ServiceModel.Duplex >= 4.10.*",
+      "System.ServiceModel.Federation >= 4.10.*",
+      "System.ServiceModel.Http >= 4.10.*",
+      "System.ServiceModel.NetTcp >= 4.10.*",
+      "System.ServiceModel.Security >= 4.10.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\usfx\\2-2023\\SistemasDistribuidos2-23\\tema7\\impuestos\\Facturador\\Facturador\\Facturador.csproj",
+      "projectName": "Facturador",
+      "projectPath": "D:\\usfx\\2-2023\\SistemasDistribuidos2-23\\tema7\\impuestos\\Facturador\\Facturador\\Facturador.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "D:\\usfx\\2-2023\\SistemasDistribuidos2-23\\tema7\\impuestos\\Facturador\\Facturador\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Client": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "NSwag.ApiDescription.Client": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[13.0.5, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "System.ServiceModel.Duplex": {
+            "target": "Package",
+            "version": "[4.10.*, )"
+          },
+          "System.ServiceModel.Federation": {
+            "target": "Package",
+            "version": "[4.10.*, )"
+          },
+          "System.ServiceModel.Http": {
+            "target": "Package",
+            "version": "[4.10.*, )"
+          },
+          "System.ServiceModel.NetTcp": {
+            "target": "Package",
+            "version": "[4.10.*, )"
+          },
+          "System.ServiceModel.Security": {
+            "target": "Package",
+            "version": "[4.10.*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Http"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Duplex"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.NetTcp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Federation"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "No se puede cargar el índice de servicio para el origen https://api.nuget.org/v3/index.json.",
+      "libraryId": "System.ServiceModel.Security"
+    }
+  ]
+}
